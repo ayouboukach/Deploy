@@ -1,0 +1,120 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    padding-left: 8px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-top: 2.5px;
+    padding-right: 8px;
+  }
+
+  .fa-caret-up {
+    float: right;
+    padding-top: 2.5px;
+    padding-right: 8px;
+  }
+
+  .fa-folder-open {
+    float: left;
+    padding-right: 8px;
+  }
+
+  .fa-user {
+    float: left;
+    padding-right: 13px;
+  }
+
+  .dropdown-btn{
+    border-color: #fff;
+    outline: none;
+    padding-left: 0px;
+    margin-top: 6px;
+  }
+#deleteButtonStyle{
+    border-color: #fff;
+    outline: none;
+    border: none;
+}
+.replace {
+  float: right;
+}
+
+.auth {
+  font-size: smaller;
+}
+
+.auth:focus {
+  outline-style: none !important;
+  outline: none !important;
+  outline: 0 !important;
+  border: 0.1px #0045ad;
+  border-style:groove ;
+  box-shadow:none
+}
+
+.auth-error {
+  font-size: smaller;
+}
+
+.auth-error:focus {
+  outline-style: none !important;
+  outline: none !important;
+  outline: 0 !important;
+  border: 0.1px #ff0000;
+  border-style:groove ;
+  box-shadow:none
+}
+
+.img-login{
+  margin:auto;
+  -webkit-filter: drop-shadow(3px 3px 1px #2e2e2e);
+        filter: drop-shadow(1px 1px 0.5px #363636);
+}
+
+.border-color-input-login {
+  border-color: #a7a7a7;
+}
